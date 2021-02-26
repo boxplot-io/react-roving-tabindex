@@ -89,5 +89,6 @@ export type HookResponse = [
   number,
   boolean,
   (event: React.KeyboardEvent) => void,
-  () => void
+  () => void,
+  string | null
 ];

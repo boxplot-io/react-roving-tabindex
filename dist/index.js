@@ -533,7 +533,7 @@ function useRovingTabIndex(domElementRef, disabled, rowIndex) {
     var selected = getId() === context.state.selectedId;
     var tabIndex = selected ? 0 : -1;
     var focused = selected && context.state.allowFocusing;
-    return [tabIndex, focused, handleKeyDown, handleClick];
+    return [tabIndex, focused, handleKeyDown, handleClick, idRef.current];
 }
 
 /**

@@ -117,5 +117,5 @@ export function useRovingTabIndex(
   const tabIndex = selected ? 0 : -1;
   const focused = selected && context.state.allowFocusing;
 
-  return [tabIndex, focused, handleKeyDown, handleClick];
+  return [tabIndex, focused, handleKeyDown, handleClick, idRef.current];
 }
