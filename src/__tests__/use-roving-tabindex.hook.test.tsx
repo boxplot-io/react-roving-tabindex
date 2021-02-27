@@ -132,7 +132,8 @@ it("should return the correct values when the tab stop is not selected", () => {
     -1,
     false,
     expect.any(Function),
-    expect.any(Function)
+    expect.any(Function),
+    MOCK_ID
   ]);
 });
 
@@ -157,7 +158,8 @@ describe("when the tab stop is selected", () => {
         0,
         true,
         expect.any(Function),
-        expect.any(Function)
+        expect.any(Function),
+        MOCK_ID
       ]);
     });
   });
@@ -186,7 +188,8 @@ describe("when the tab stop is selected", () => {
         0,
         false,
         expect.any(Function),
-        expect.any(Function)
+        expect.any(Function),
+        MOCK_ID
       ]);
     });
   });
@@ -217,7 +220,8 @@ describe("when the tab stop is not selected", () => {
         -1,
         false,
         expect.any(Function),
-        expect.any(Function)
+        expect.any(Function),
+        MOCK_ID
       ]);
     });
   });
@@ -246,7 +250,8 @@ describe("when the tab stop is not selected", () => {
         -1,
         false,
         expect.any(Function),
-        expect.any(Function)
+        expect.any(Function),
+        MOCK_ID
       ]);
     });
   });
